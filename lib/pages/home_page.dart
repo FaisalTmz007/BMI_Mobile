@@ -160,13 +160,13 @@ class _HomePageState extends State<HomePage> {
                 Slider(
                   value: _weight,
                   min: 0,
-                  max: 300,
+                  max: 250,
                   onChanged: (weight) {
                     setState(() {
                       _weight = weight;
                     });
                   },
-                  divisions: 300,
+                  divisions: 250,
                   label: "$_weight",
                   activeColor: Colors.deepPurple,
                   inactiveColor: Colors.grey,
